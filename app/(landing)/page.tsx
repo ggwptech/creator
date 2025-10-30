@@ -5,18 +5,6 @@ import Link from "next/link"
 export default function LandingPage() {
   return (
     <div className="flex min-h-screen flex-col bg-background">
-      {/* Header */}
-      <header className="border-b">
-        <div className="container flex h-16 items-center px-4 md:px-6">
-          <div className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-              <Youtube className="h-4 w-4" />
-            </div>
-            <span className="text-lg font-semibold">Creator CRM</span>
-          </div>
-        </div>
-      </header>
-
       {/* Hero Section */}
       <main className="flex-1 flex items-center justify-center">
         <div className="container flex flex-col items-center justify-center gap-8 px-4 py-24 text-center md:px-6 lg:py-32">
