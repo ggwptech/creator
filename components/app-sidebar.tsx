@@ -20,7 +20,7 @@ import { usePathname } from "next/navigation"
 const menuItems = [
   {
     title: "Dashboard",
-    url: "/",
+    url: "/dashboard",
     icon: Home,
   },
   {
